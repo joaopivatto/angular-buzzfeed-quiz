@@ -1,0 +1,61 @@
+{
+  "title": "Escolha entre jogos da atualidade e te diremos qual console te define",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Qual desses jogos de ação você prefere jogar?",
+      "options": [
+        { "id": 1, "name": "Elden Ring", "alias": "PC" },
+        { "id": 2, "name": "Marvel’s Spider-Man 2", "alias": "PlayStation" },
+        { "id": 3, "name": "Starfield", "alias": "Xbox" },
+        { "id": 4, "name": "Zelda: Tears of the Kingdom", "alias": "Nintendo" }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Se for jogar online com amigos, qual escolhe?",
+      "options": [
+        { "id": 1, "name": "Call of Duty: Modern Warfare III", "alias": "Xbox" },
+        { "id": 2, "name": "Fortnite", "alias": "Nintendo" },
+        { "id": 3, "name": "Valorant", "alias": "PC" },
+        { "id": 4, "name": "Apex Legends", "alias": "PlayStation" }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Qual mundo aberto você mais gostaria de explorar?",
+      "options": [
+        { "id": 1, "name": "Horizon Forbidden West", "alias": "PlayStation" },
+        { "id": 2, "name": "Red Dead Redemption 2", "alias": "Xbox" },
+        { "id": 3, "name": "Cyberpunk 2077", "alias": "PC" },
+        { "id": 4, "name": "Assassin’s Creed Mirage", "alias": "Nintendo" }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Qual desses jogos indies ou alternativos mais te chama atenção?",
+      "options": [
+        { "id": 1, "name": "Hades II", "alias": "PC" },
+        { "id": 2, "name": "Dave the Diver", "alias": "Nintendo" },
+        { "id": 3, "name": "Sea of Stars", "alias": "Xbox" },
+        { "id": 4, "name": "Stray", "alias": "PlayStation" }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Se fosse maratonar uma franquia moderna, qual seria?",
+      "options": [
+        { "id": 1, "name": "Resident Evil", "alias": "PlayStation" },
+        { "id": 2, "name": "Final Fantasy", "alias": "Nintendo" },
+        { "id": 3, "name": "God of War", "alias": "PlayStation" },
+        { "id": 4, "name": "The Witcher", "alias": "PC" }
+      ]
+    }
+  ],
+  "results": {
+    "PC": "Você é um gamer raiz que curte liberdade, mods e gráficos no talo. O PC é a sua alma gêmea gamer.",
+    "PlayStation": "Você gosta de narrativas cinematográficas e exclusividades de peso. O PlayStation é a sua casa!",
+    "Xbox": "Você valoriza multiplayer, desempenho e um bom custo-benefício. O Xbox é o console perfeito para você!",
+    "Nintendo": "Você ama diversão, nostalgia e inovação criativa. O Nintendo Switch é seu match ideal!"
+  }
+}

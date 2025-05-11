@@ -1,0 +1,29 @@
+<div class="container">
+  <div class="logo">
+    <img src="https://companieslogo.com/img/orig/BZFD_BIG.D-8e8e9a0d.png?t=1720244491" alt="">
+  </div>
+
+@if (!finished) {
+
+    <div class="title">
+      <h1> {{ title }} </h1>
+    </div>
+    <div class="question">
+      <p> {{questionSelected.question}} </p>
+    </div>
+    <div class="question-answers">
+      @for (question of questionSelected.options; track $index) {
+        <button (click)="playerChoose(question.alias)">
+          <span>{{question.name}}</span>
+        </button>
+      }
+    </div>
+}
+
+@else {
+  <div class="finished-quizz">
+    <p> {{answerSelected}} </p>
+    <button (click)="[restart()]"><span>Recomeçar</span></button>
+  </div>
+}
+</div>
